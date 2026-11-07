@@ -1,4 +1,21 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
 .env
+.env.*
+
+# IDE
+.vscode/
+.idea/
